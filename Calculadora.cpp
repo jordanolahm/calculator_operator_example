@@ -8,7 +8,7 @@ int Calculadora::getValor() const {
 }
 
 void Calculadora::setValor(int novoValor) {
-    valor = novoValor;
+    this->valor = novoValor;
 }
 
 bool Calculadora::operator==(const Calculadora& other) const {
